@@ -1,0 +1,33 @@
+
+
+
+@media (max-width: 580px) {
+    body{
+        flex-direction: column;
+    }
+}
+
+body {
+    background-color: grey;
+    font-family: 'Alkatra';
+}
+
+.first {
+    text-align: center;
+}
+
+.link-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images {
+    flex: 33.33%
+    padding: 5px;
+}
